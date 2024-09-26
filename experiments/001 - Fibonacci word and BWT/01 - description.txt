@@ -1,0 +1,25 @@
+First experiments with ropebwt3:
+    - on random DNA sequences
+    - on Fibonacci word
+
+    1 - create_seq.py
+        - create a random or a Fibonacci sequence on specific length
+
+    2 - get_seq.py
+        - write a sequence from create_seq.py in sequence.txt file
+        - command: python get_seq.py [type] [length]
+            - type: r for random sequence & fib for Fibonacci sequence
+
+    3 - seq_to_bwt.py
+        - apply BWT to a list of sequence and write it in a file
+        - command: python seq_to_bwt.py [input_name] [output_name]
+
+    4 - k_fib_seq.py
+        - create first k Fibonacci sequence and write it in k_fib_seq.txt
+    
+    5 - k_rand_seq.py
+        - create a random sequence of length k and write the sequence of each prefixe (for each length between 1 and k) in k_rand_seq.txt
+
+    6 - compare_rand_fib.py
+        - make the comparison of number of changes in random and Fibonacci sequences
+        - command: python compare_rand_fib.py [rand_name] [fib_name]
