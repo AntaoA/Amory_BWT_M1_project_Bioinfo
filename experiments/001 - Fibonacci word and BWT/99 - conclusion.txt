@@ -1,4 +1,0 @@
-I make a comparison of number of changes between random sequence and Fibonacci word.
-
-For the Fibonacci word, the number of change is very low and almost constant.
-For a random sequence, the progression is almost linear, but with a coefficient lower than 1 (depanding of the specific random sequence)

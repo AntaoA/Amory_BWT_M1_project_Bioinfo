@@ -1,8 +1,0 @@
-I try to make a transformation using ropebwt3 on a collection of string.
-Here, I will go to try with the folder wolbachia_endosymbiont_of_drosophila_melanogaster__01 from 661k database.
-The folder contain 116 files and the weight is: 133.9Mio
-
-ropebwt3
-
-    cat test.txt | ropebwt3 build -Ld - > test.fmr
-    ropebwt3 get test.fmr n : if n = 2i, get the i-th sequence, else n = 2i+1, get the reverse complement of the i-th sequence.
