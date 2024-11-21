@@ -32,3 +32,5 @@ experiments/007 - N. gonorrhoeae - S. pneumoniae/data/NG1 + NG2/*.fmr
 experiments/007 - N. gonorrhoeae - S. pneumoniae/data/NG1 + NG2/*.fa
 experiments/007 - N. gonorrhoeae - S. pneumoniae/data/NG1 + SP1/*.fa
 experiments/007 - N. gonorrhoeae - S. pneumoniae/data/NG1 + SP1/*.fmr
+
+__pycache__/

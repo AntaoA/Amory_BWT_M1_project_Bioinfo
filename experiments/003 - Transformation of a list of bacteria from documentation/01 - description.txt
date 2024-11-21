@@ -1,0 +1,18 @@
+I follow the documentation of RopeBWT3 in order to understand how I can apply the transformation directly on multiple file of a folder.
+
+I follow these lines:
+    # Download the index of 100 human long-read assemblies (10GB in size)
+    wget -O human100.fmr.gz https://zenodo.org/records/13147120/files/human100.fmr.gz?download=1
+    wget -O human100.fmd.ssa https://zenodo.org/records/13147120/files/human100.fmd.ssa?download=1
+    wget -O human100.fmd.len.gz https://zenodo.org/records/13147120/files/human100.fmd.len.gz?download=1
+    gzip -d human100.fmr.gz
+    ./ropebwt3 build -i human100.fmr -do human100.fmd   # convert the static format for speed
+
+77274 sequences
+603119813674 symbols
+4260100926 runs
+178308877114 A
+123083146351 C
+123083146351 G
+178308877114 T
+335689470 N

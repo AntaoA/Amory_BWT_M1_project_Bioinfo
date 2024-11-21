@@ -1,0 +1,34 @@
+I already test ropeBWT3 on Neisseria gonorrhoeae, where I've considered the collection of genomes as 1 string (end-of-string: $)
+I want to test on all file separately then on all sequence separately, in order to see the gain of the first method (I suppose)
+
+phylogenetic tree : attotree [files]
+
+everything as single string (for instance, lexicographically):
+    [M::main] Real time: 2643.981 sec; CPU: 8518.711 sec; Peak RSS: 0.232 GB
+    
+    1108015 sequences
+    8723775558 symbols
+    64324462 runs
+    2056789868 A
+    2255481957 C
+    2273495998 G
+    2068772010 T
+    68127710 N
+
+    symbols/runs = 135.62
+
+1 genome 1 string:
+    4000 genomes => 4000 tests
+        Total sequences: 1108036
+        Total symbols: 8723710719       less symbols since there is no the end-of-string $ symbol
+        Total runs: 5881153228
+    
+        symbols/runs = 1.48
+
+1 sequence 1 string
+    1108036 sequences => 1108036 tests
+        Total sequences: 554007
+        Total symbols: 8646838994
+        Total runs: 5991819069
+
+        symbols/runs = 1.43

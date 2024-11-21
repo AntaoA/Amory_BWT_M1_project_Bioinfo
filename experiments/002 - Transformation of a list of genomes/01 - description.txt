@@ -1,0 +1,15 @@
+I try to make a transformation using ropebwt3 on a collection of string.
+
+
+ropebwt3
+
+    input01: first test with several sequences
+        . $ is the end-of-string caracter. 
+        . When there is not -R (or -F), the end-of-string caracter is repete two time, after the foreward sequence and after the reverse sequence
+    
+    input02: another input in order to test the BWT on several file (input01 and input 02) - 
+        ropebwt3 build -LR input01.txt input02.txt
+        output02.txt
+
+
+    ropebwt3 get test.fmr n : if n = 2i, get the i-th sequence, else n = 2i+1, get the reverse complement of the i-th sequence.
