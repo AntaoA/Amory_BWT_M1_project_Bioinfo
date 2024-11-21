@@ -1,4 +1,34 @@
 data/661k/
-experiments/004 - Neisseria gonorrhoeae - Comparison of orders/neisseria_gonorrhoeae__01
-experiments/005 - Neisseria gonorrhoeae - Comparison of encoding/neisseria_gonorrhoeae__01
-experiments/006 - Number of genome with attotree/
+
+experiments/001 - Fibonacci word and BWT/fib_100k.txt
+experiments/001 - Fibonacci word and BWT/fib_100k_BWT.txt
+experiments/001 - Fibonacci word and BWT/k_fib_bwt_seq.txt
+experiments/001 - Fibonacci word and BWT/k_fib_seq.txt
+experiments/001 - Fibonacci word and BWT/k_rand_bwt_seq.txt
+experiments/001 - Fibonacci word and BWT/k_rand_seq.txt
+experiments/001 - Fibonacci word and BWT/rand_100k.txt
+experiments/001 - Fibonacci word and BWT/rand_100k_BWT.txt
+experiments/001 - Fibonacci word and BWT/sequence_bwt_test.txt
+experiments/001 - Fibonacci word and BWT/sequence_bwt.txt
+experiments/001 - Fibonacci word and BWT/temp_file.txt
+
+experiments/002 - Transposition of a list of genomes/input01.txt
+experiments/002 - Transposition of a list of genomes/input02.txt
+experiments/002 - Transposition of a list of genomes/output01-L.txt
+experiments/002 - Transposition of a list of genomes/output01-LR.txt
+experiments/002 - Transposition of a list of genomes/output02.txt
+
+experiments/003 - Transformation of a list of bacteria from documentation/human100.fmr
+experiments/003 - Transformation of a list of bacteria from documentation/human100.fmd.ssa
+
+experiments/004 - Neisseria gonorrhoeae - Comparison of orders/neisseria_gonorrhoeae__01/*.fa
+experiments/004 - Neisseria gonorrhoeae - Comparison of orders/lexico.fmr
+experiments/004 - Neisseria gonorrhoeae - Comparison of orders/phylogenetic.fmr
+experiments/004 - Neisseria gonorrhoeae - Comparison of orders/random.fmr
+
+experiments/005 - Neisseria gonorrhoeae - Comparison of encoding/neisseria_gonorrhoeae__01/*.fa
+
+experiments/007 - N. gonorrhoeae - S. pneumoniae/data/NG1 + NG2/*.fmr
+experiments/007 - N. gonorrhoeae - S. pneumoniae/data/NG1 + NG2/*.fa
+experiments/007 - N. gonorrhoeae - S. pneumoniae/data/NG1 + SP1/*.fa
+experiments/007 - N. gonorrhoeae - S. pneumoniae/data/NG1 + SP1/*.fmr
