@@ -33,4 +33,12 @@ experiments/007 - N. gonorrhoeae - S. pneumoniae/data/NG1 + NG2/*.fa
 experiments/007 - N. gonorrhoeae - S. pneumoniae/data/NG1 + SP1/*.fa
 experiments/007 - N. gonorrhoeae - S. pneumoniae/data/NG1 + SP1/*.fmr
 
+experiments/008 - options of ropebwt3/dustbin__01/*.fa
+
 __pycache__/
+
+
+experiments/009 - dustbin random/data
+experiments/009 - dustbin random/random_dustbin_l.fmr
+experiments/009 - dustbin random/random_dustbin_r.fmr
+experiments/009 - dustbin random/random_dustbin_p.fmr
