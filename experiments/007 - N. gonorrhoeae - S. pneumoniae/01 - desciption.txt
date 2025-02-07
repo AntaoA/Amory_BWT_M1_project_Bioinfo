@@ -13,23 +13,9 @@ Expected results: show an efficacy of phylogenetic sort, mainly over random sort
 2 - Create phylogenetic tree (about 20min):
         attotree *.fa > tree.txt
 3 - run 3 make_command
-4 - run command maked with $(command_random) for instance
+4 - run command maked with $(cat command_random) for instance
 5 - analyse .fmr ropebwt3 stat [].fmr
 
-
-    lexico:
-        [M::main] Real time: ; CPU: ; Peak RSS: 
-        
-         sequences
-         symbols
-         runs
-         A
-         C
-         G
-         T
-         N
-
-        symbols/runs = 
 
 
     random NGNG:
@@ -57,10 +43,8 @@ Expected results: show an efficacy of phylogenetic sort, mainly over random sort
 
         average run length = 131.63
 
-
-
     phylogenetic NGSP:
-        [M::main] [M::main] Real time: 8001.985 sec; CPU: 19418.644 sec; Peak RSS: 0.405 GB 
+        [M::main] Real time: 8001.985 sec; CPU: 19418.644 sec; Peak RSS: 0.405 GB 
 
         sequences:  2 455 036
         symbols:    17 401 900 153
@@ -72,3 +56,35 @@ Expected results: show an efficacy of phylogenetic sort, mainly over random sort
         N:          150 567 749
 
         average run length = 133.63
+
+
+    lexico NGNG:
+    [M::main] Real time: 4817.795 sec; CPU: 16656.777 sec; Peak RSS: 0.401 GB
+        
+        sequences:  2 139 255
+        symbols:    17 497 852 256
+        runs:       141 094 527
+        A:          4 128 133 992
+        C:          4 531 258 386
+        G:          4 558 113 348
+        T:          4 146 111 939
+        N:          131 825 336
+
+        average run length = 124.02
+
+
+
+
+    phylogenetic NGNG
+        [M::main] Real time: 4537.770 sec; CPU: 15502.306 sec; Peak RSS: 0.337 GB
+        sequences:  2 139 255
+        symbols:    17 497 852 256
+        runs:       140 477 834
+        A:          4 128 133 992
+        C:          4 531 258 386
+        G:          4 558 113 348
+        T:          4 146 111 939
+        N:          131 825 336
+
+        average run length = 124.56
+

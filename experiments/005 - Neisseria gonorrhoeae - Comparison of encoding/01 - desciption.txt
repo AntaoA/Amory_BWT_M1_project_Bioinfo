@@ -15,7 +15,7 @@ everything as single string (for instance, lexicographically):
     2068772010 T
     68127710 N
 
-    symbols/runs = 135.62
+    run length = 135.62
 
 1 genome 1 string:
     4000 genomes => 4000 tests
@@ -23,7 +23,7 @@ everything as single string (for instance, lexicographically):
         Total symbols: 8723710719       less symbols since there is no the end-of-string $ symbol
         Total runs: 5881153228
     
-        symbols/runs = 1.48
+        run length = 1.48
 
 1 sequence 1 string
     1108036 sequences => 1108036 tests
@@ -31,4 +31,4 @@ everything as single string (for instance, lexicographically):
         Total symbols: 8646838994
         Total runs: 5991819069
 
-        symbols/runs = 1.43
+        run length = 1.43

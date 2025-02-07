@@ -23,7 +23,7 @@ I use Neisseria gonorrhoeae batch nb 1 (4k genomes).
         2068772010 T
         68127710 N
 
-        symbols/runs = 135.62
+        run length = 135.62
 
 
     random:
@@ -38,7 +38,7 @@ I use Neisseria gonorrhoeae batch nb 1 (4k genomes).
         2068772010 T
         68127710 N
 
-        symbols/runs = 134.69
+        run length = 134.69
 
 
 
@@ -54,4 +54,4 @@ I use Neisseria gonorrhoeae batch nb 1 (4k genomes).
         2068772007 T
         68073843 N
 
-        symbols/runs = 136.15
+        run length = 136.15

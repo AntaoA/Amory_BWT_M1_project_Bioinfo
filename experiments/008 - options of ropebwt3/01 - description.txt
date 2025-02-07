@@ -1,0 +1,12 @@
+test of all combinaison of -R and -L parameter in ropebwt3 build command
+
+Data: 1000 genomes from dustbin1
+
+
+command:
+
+
+    ropebwt3 build -bo no_param.fmr dustbin__01/*.fa
+    ropebwt3 build -R -bo R.fmr dustbin__01/*.fa
+    ropebwt3 build -LR -bo LR.fmr dustbin__01/*.fa
+    ropebwt3 build -L -bo L.fmr dustbin__01/*.fa
