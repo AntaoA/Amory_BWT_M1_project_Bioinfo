@@ -82,12 +82,11 @@ if __name__ == "__main__":
                 genomes = select_random_genomes(nb)
                 del_genomes()
                 move_genomes(genomes)
-            else:
-                genomes = os.listdir(path_attotree)
-                genomes = [f"{path_attotree}{genome}" for genome in genomes]
+            genomes = os.listdir(path_attotree)
+            genomes = [f"{path_attotree}{genome}" for genome in genomes]
     else:
         order = "r"
-    
+    print(genomes[0])
     genomes = order_genomes(genomes, order)
             
     # Commande Linux à exécuter

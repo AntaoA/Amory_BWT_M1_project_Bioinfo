@@ -66,3 +66,32 @@ random
 [M::main] Real time: 7.251 sec; CPU: 7.251 sec; Peak RSS: 3.909 GB
 
 run length: 1.79
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dustbin_random.py l y 10000
+real	1m37.107s
+user	0m12.355s
+sys	0m21.973s
+
+dustbin_random.py r n 10000
+real	0m0.613s
+user	0m0.306s
+sys	0m0.067s
+
+
+dustbin_random.py p n 10000 + attotree
+real    27m14.170s
+user    264m37.954s
+sys     0m39.923s
