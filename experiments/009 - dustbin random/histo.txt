@@ -1,0 +1,6 @@
+first_char G
+first_length 2
+last_char A
+last_length 1
+1 1
+2 2

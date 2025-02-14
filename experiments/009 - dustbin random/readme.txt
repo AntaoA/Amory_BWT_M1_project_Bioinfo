@@ -95,3 +95,59 @@ dustbin_random.py p n 10000 + attotree
 real    27m14.170s
 user    264m37.954s
 sys     0m39.923s
+
+
+
+p_bwt_lite :
+[M::main] Real time: 23956.893 sec; CPU: 128792.791 sec; Peak RSS: 21.850 GB
+125342.27user 3451.00system 6:39:20elapsed 537%CPU (0avgtext+0avgdata 22911608maxresident)k
+82005608inputs+81225032outputs (6major+2190366421minor)pagefaults 0swaps
+
+-rw-r--r-- 1 aantao cnrs_umr6074  39G 14 févr. 09:30 p.bwt
+
+r_bwt_lite :
+[M::main] Real time: 29249.111 sec; CPU: 159820.251 sec; Peak RSS: 22.090 GB
+148070.79user 11749.51system 8:07:29elapsed 546%CPU (0avgtext+0avgdata 23163096maxresident)k
+82004192inputs+22752outputs (4major+3709942486minor)pagefaults 0swaps
+
+
+
+
+
+
+
+
+
+
+
+
+l_bwt :
+[M::main] Real time: 38707.264 sec; CPU: 302143.325 sec; Peak RSS: 37.051 GB
+283988.01user 18155.70system 10:45:08elapsed 780%CPU (0avgtext+0avgdata 38850372maxresident)k
+82010472inputs+162435344outputs (9major+7324113361minor)pagefaults 0swaps
+
+l_bwt_lite :
+[M::main] Real time: 22717.674 sec; CPU: 126861.146 sec; Peak RSS: 21.899 GB
+124294.72user 2566.50system 6:18:37elapsed 558%CPU (0avgtext+0avgdata 22962992maxresident)k
+81369544inputs+81226464outputs (0major+1897463476minor)pagefaults 0swaps
+
+-rw-r--r-- 1 aantao cnrs_umr6074 78G 10 févr. 07:25 random_dustbin_l.bwt
+-rw-r--r-- 1 aantao cnrs_umr6074 39G 10 févr. 06:57 random_dustbin_l_lite.bwt
+
+plain2fmd l lite
+[M::main] Real time: 375.820 sec; CPU: 347.353 sec; Peak RSS: 14.026 GB
+real	6m16.086s
+user	5m26.428s
+sys	0m21.171s
+
+-rw-r--r-- 1 aantao cnrs_umr6074 15G 10 févr. 12:25 bwt_l_lite.fmd
+
+2797082 sequences
+41576335807 symbols
+14153759271 runs
+9349939752 A
+11419006816 C
+11418963178 G
+9385337779 T
+291200 N
+
