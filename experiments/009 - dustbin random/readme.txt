@@ -106,9 +106,9 @@ p_bwt_lite :
 -rw-r--r-- 1 aantao cnrs_umr6074  39G 14 févr. 09:30 p.bwt
 
 r_bwt_lite :
-[M::main] Real time: 29249.111 sec; CPU: 159820.251 sec; Peak RSS: 22.090 GB
-148070.79user 11749.51system 8:07:29elapsed 546%CPU (0avgtext+0avgdata 23163096maxresident)k
-82004192inputs+22752outputs (4major+3709942486minor)pagefaults 0swaps
+[M::main] Real time: 24357.076 sec; CPU: 143281.454 sec; Peak RSS: 22.103 GB
+139341.59user 3939.91system 6:46:01elapsed 588%CPU (0avgtext+0avgdata 23176656maxresident)k
+50419008inputs+81224584outputs (3major+2312173503minor)pagefaults 0swaps
 
 
 
@@ -127,9 +127,10 @@ l_bwt :
 82010472inputs+162435344outputs (9major+7324113361minor)pagefaults 0swaps
 
 l_bwt_lite :
-[M::main] Real time: 22717.674 sec; CPU: 126861.146 sec; Peak RSS: 21.899 GB
-124294.72user 2566.50system 6:18:37elapsed 558%CPU (0avgtext+0avgdata 22962992maxresident)k
-81369544inputs+81226464outputs (0major+1897463476minor)pagefaults 0swaps
+[M::main] Real time: 24921.805 sec; CPU: 134801.198 sec; Peak RSS: 21.899 GB
+130586.14user 4215.59system 6:55:24elapsed 540%CPU (0avgtext+0avgdata 22962988maxresident)k
+81375040inputs+81224888outputs (4major+2481824332minor)pagefaults 0swaps
+
 
 -rw-r--r-- 1 aantao cnrs_umr6074 78G 10 févr. 07:25 random_dustbin_l.bwt
 -rw-r--r-- 1 aantao cnrs_umr6074 39G 10 févr. 06:57 random_dustbin_l_lite.bwt
